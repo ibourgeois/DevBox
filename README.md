@@ -32,6 +32,8 @@ This script will provision a bridged Ubuntu Server 12.04 (32 bit) VM in VirtualB
     <li>You should be looking at the Laravel 4 "You have arrived" page</li>
 </ol>
 
+<pstyle="color: #ff2323;"><b>Warning: You may see several errors during the provisioning, yet everything seems to be working fine. If you find something not working, please create an issue so I can get it fixed!</b></p>
+
 <h2>Information</h2>
 <p>To SSH into your VM, use the IP address you found with "ifconfig" and port 22 (ex - 192.168.1.144:22). The username and password are: vagrant / vagrant</p>
 
