@@ -2,7 +2,20 @@ Laravel-Vagrant
 ===============
 
 An automated Ubuntu VM (LAMP+Laravel 4) provision using Vagrant
-
+<h1>Details</h1>
+This script will provision a bridged Ubuntu Server 12.04 (32 bit) VM in VirtualBox using Vagrant with the following features:
+<ul>
+<li>Vim</li>
+<li>FTP Server (VSFTPD)</li>
+<li>APACHE 2 Web Server</li>
+<li>PHP 5</li>
+<li>MySQL Server 5.5</li>
+<li>cURL</li>
+<li>PHP mcrypt</li>
+<li>GIT</li>
+<li>Composer</li>
+<li>Laravel 4</li>
+</ul>
 
 <h1>Install</h1>
 
@@ -19,7 +32,7 @@ An automated Ubuntu VM (LAMP+Laravel 4) provision using Vagrant
     <li>You should be looking at the Laravel 4 "You have arrived" page</li>
 </ol>
 
-<h2>Features</h2>
+<h2>Information</h2>
 <p>To SSH into your VM, use the IP address you found with "ifconfig" and port 22 (ex - 192.168.1.144:22). The username and password are: vagrant / vagrant</p>
 
 <p>This also includes an FTP server which can be accessed using your VM's IP address, port 21 (no SSL or TLS) and the username and password is: vagrant / vagrant</p>
