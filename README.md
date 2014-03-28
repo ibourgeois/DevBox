@@ -10,11 +10,11 @@ An automated Ubuntu VM (LAMP+Laravel 4) provision using Vagrant
     <li>Install VirtualBox</li>
     <li>Install Vagrant</li>
     <li>Open your terminal/command prompt and navigate to this folder contining this readme file</li>
-    <li>Type "vagrant box add laravel http://files.vagrantup.com/precise32.box"</li>
-    <li>After the VM has downloaded, type "vagrant up"</li>
+    <li>Type: <pre>vagrant box add laravel http://files.vagrantup.com/precise32.box</pre></li>
+    <li>After the VM has downloaded, type: <pre>vagrant up</pre></li>
     <li>Select the device you want to use to connect to the internet</li>
-    <li>Once your VM is up and running and finishes provisioning, type "vagrant ssh"</li>
-    <li>type "ifconfig"</li>
+    <li>Once your VM is up and running and finishes provisioning, type: <pre>vagrant ssh</pre></li>
+    <li>type: <pre>ifconfig</pre></li>
     <li>Enter the IP address of your VM into your host's browser.</li>
     <li>You should be looking at the Laravel 4 "You have arrived" page</li>
 </ol>
