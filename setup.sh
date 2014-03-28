@@ -33,16 +33,16 @@ export DEBIAN_FRONTEND=noninteractive
 # Install MySQL quietly
 apt-get -q -y install mysql-server-5.5
 
-# MySQL database connections directly from PHP
+# Allow PHP to connect to MySQL
 sudo apt-get install -y php5-mysql
 
-# cURL is a library for getting files from FTP, GOPHER, HTTP server
+# Install PHP cURL
 sudo apt-get install -y php5-curl
 
-# Module for MCrypt functions in PHP
+# Install mcrypt for PHP
 sudo apt-get install -y php5-mcrypt
 
-# cURL
+# Install cURL
 sudo apt-get install -y curl
 
 # Install Git
