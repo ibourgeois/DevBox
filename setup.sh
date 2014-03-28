@@ -58,7 +58,7 @@ curl -s https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Install Laravel
-composer create-project laravel --prefer-dist
+composer create-project laravel/laravel --prefer-dist
 
 # Modify VSFTPD.CONF 
 sudo : > /etc/vsftpd.conf
