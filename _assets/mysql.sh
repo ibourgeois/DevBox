@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Install MySQL 
 export DEBIAN_FRONTEND=noninteractive
 apt-get -q -y install mysql-server-5.5
