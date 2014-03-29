@@ -38,5 +38,13 @@ This script will provision a bridged Ubuntu Server 12.04 (32 bit) VM in VirtualB
 
 <p>This also includes an FTP server which can be accessed using your VM's IP address, port 21 (no SSL or TLS) and the username and password is: vagrant / vagrant</p>
 
+<p>When configuring Laravel, the MySQL database information is as follows:
+<pre>
+  Username: vagrant
+  Password: vagrant
+  host: localhost
+  database name: laravel
+</pre></p>
+
 
 <p>If you run into any problems, create an issue here and I will do my best to get it taken care of...</p>
