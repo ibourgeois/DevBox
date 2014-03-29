@@ -18,8 +18,8 @@ This script will provision a bridged Ubuntu Server 12.04 (32 bit) VM in VirtualB
 <h1>Install</h1>
 
 <ol>
-    <li>Install VirtualBox</li>
-    <li>Install Vagrant</li>
+    <li>Install VirtualBox - https://www.virtualbox.org/wiki/Downloads</li>
+    <li>Install Vagrant - http://www.vagrantup.com/downloads.html</li>
     <li>Open your terminal/command prompt and navigate to this folder contining this readme file</li>
     <li>Type: <pre>vagrant box add wordpress http://files.vagrantup.com/precise32.box</pre></li>
     <li>After the VM has downloaded, type: <pre>vagrant up</pre></li>
