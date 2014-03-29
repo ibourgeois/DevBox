@@ -48,8 +48,8 @@ These scripts will provision bridged Ubuntu Server 12.04 (32 bit) VMs in Virtual
 
 <h1>Installation</h1>
 <ol>
-    <li>Install VirtualBox</li>
-    <li>Install Vagrant</li>
+    <li>Install VirtualBox - https://www.virtualbox.org/wiki/Downloads</li>
+    <li>Install Vagrant - http://www.vagrantup.com/downloads.html</li>
     <li>Follow the instructions contained in the README.md file located within each provision package</li>
 </ol>
 
