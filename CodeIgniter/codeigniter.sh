@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Update Ubuntu
-sudo apt-get update
-
 # Install Vim
 sudo apt-get install -y vim
 
