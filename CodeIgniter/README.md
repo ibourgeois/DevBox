@@ -1,6 +1,6 @@
 <h1>Vagrant + CodeIgniter</h1>
 
-An automated Ubuntu VM (LAMP+WordPress) provision using Vagrant
+An automated Ubuntu VM (LAMP+CodeIgniter) provision using Vagrant
 <h1>Details</h1>
 This script will provision a bridged Ubuntu Server 12.04 (32 bit) VM in VirtualBox using Vagrant with the following features:
 <ul>
