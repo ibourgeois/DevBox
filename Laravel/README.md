@@ -1,5 +1,4 @@
 <h1>Vagrant + Laravel 4</h1>
-===============
 
 An automated Ubuntu VM (LAMP+Laravel 4) provision using Vagrant
 <h1>Details</h1>
