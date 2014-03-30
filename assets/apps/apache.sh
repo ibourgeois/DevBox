@@ -5,6 +5,7 @@ echo "Installing Apache"
 
 # Install Apache2
 sudo apt-get install -y apache2
+sudo apt-get install -y apache2-utils
 
 # Remove /var/www default
 rm -rf /var/www
