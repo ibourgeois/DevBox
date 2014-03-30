@@ -21,5 +21,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => "../apps/git.sh"
   config.vm.provision :shell, :path => "../apps/mysql.sh"
   config.vm.provision :shell, :path => "../apps/nodejs.sh"
+# config.vm.provision :shell, :path => "../apps/hhvm.sh"
   config.vm.provision :shell, :path => "cakephp.sh"
 end
