@@ -20,14 +20,14 @@ echo "		AllowOverride All" >> /etc/apache2/sites-enabled/000-default
 echo "	</Directory>" >> /etc/apache2/sites-enabled/000-default
 echo "	<Directory /var/www/concrete5/>" >> /etc/apache2/sites-enabled/000-default
 echo "		Options Indexes FollowSymLinks MultiViews" >> /etc/apache2/sites-enabled/000-default
-echo "		AllowOverride None" >> /etc/apache2/sites-enabled/000-default
+echo "		AllowOverride All" >> /etc/apache2/sites-enabled/000-default
 echo "		Order allow,deny" >> /etc/apache2/sites-enabled/000-default
 echo "		allow from all" >> /etc/apache2/sites-enabled/000-default
 echo "	</Directory>" >> /etc/apache2/sites-enabled/000-default
 echo "" >> /etc/apache2/sites-enabled/000-default
 echo "	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/" >> /etc/apache2/sites-enabled/000-default
 echo "	<Directory \"/usr/lib/cgi-bin\">" >> /etc/apache2/sites-enabled/000-default
-echo "		AllowOverride None" >> /etc/apache2/sites-enabled/000-default
+echo "		AllowOverride All" >> /etc/apache2/sites-enabled/000-default
 echo "		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch" >> /etc/apache2/sites-enabled/000-default
 echo "		Order allow,deny" >> /etc/apache2/sites-enabled/000-default
 echo "		Allow from all" >> /etc/apache2/sites-enabled/000-default
@@ -44,7 +44,7 @@ echo "" >> /etc/apache2/sites-enabled/000-default
 echo "    Alias /doc/ \"/usr/share/doc/\"" >> /etc/apache2/sites-enabled/000-default
 echo "    <Directory \"/usr/share/doc/\">" >> /etc/apache2/sites-enabled/000-default
 echo "        Options Indexes MultiViews FollowSymLinks" >> /etc/apache2/sites-enabled/000-default
-echo "        AllowOverride None" >> /etc/apache2/sites-enabled/000-default
+echo "        AllowOverride All" >> /etc/apache2/sites-enabled/000-default
 echo "        Order deny,allow" >> /etc/apache2/sites-enabled/000-default
 echo "        Deny from all" >> /etc/apache2/sites-enabled/000-default
 echo "        Allow from 127.0.0.0/255.0.0.0 ::1/128" >> /etc/apache2/sites-enabled/000-default
