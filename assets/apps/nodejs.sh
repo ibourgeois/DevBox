@@ -4,4 +4,4 @@ clear
 echo "Installing Node.JS"
 
 # Install Node.JS
-sudo apt-get install nodejs
+sudo apt-get install -y nodejs
