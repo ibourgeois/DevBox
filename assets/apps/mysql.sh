@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 clear
+echo "================================================================================"
 echo "Installing MySQL"
+echo "================================================================================"
 
 # Install MySQL
 export DEBIAN_FRONTEND=noninteractive
