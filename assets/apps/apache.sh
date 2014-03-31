@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 clear
+echo "================================================================================"
 echo "Installing Apache"
+echo "================================================================================"
 
 # Install Apache2
 sudo apt-get install -y apache2
@@ -28,8 +30,8 @@ sudo echo "# this won't be correct after changing uid" >> /etc/apache2/envvars
 sudo echo "unset HOME" >> /etc/apache2/envvars
 sudo echo "" >> /etc/apache2/envvars
 sudo echo "# for supporting multiple apache2 instances" >> /etc/apache2/envvars
-sudo echo "if [ \"${APACHE_CONFDIR##/etc/apache2-}\" != \"${APACHE_CONFDIR}\" ] ; then" >> /etc/apache2/envvars
-sudo echo " SUFFIX=\"-${APACHE_CONFDIR##/etc/apache2-}\"" >> /etc/apache2/envvars
+sudo echo "if [ \"\${APACHE_CONFDIR##/etc/apache2-}\" != \"\${APACHE_CONFDIR}\" ] ; then" >> /etc/apache2/envvars
+sudo echo " SUFFIX=\"-\${APACHE_CONFDIR##/etc/apache2-}\"" >> /etc/apache2/envvars
 sudo echo "else" >> /etc/apache2/envvars
 sudo echo " SUFFIX=" >> /etc/apache2/envvars
 sudo echo "fi" >> /etc/apache2/envvars
@@ -39,11 +41,11 @@ sudo echo "# settings are defined via environment variables and then used in apa
 sudo echo "# /etc/init.d/apache2, /etc/logrotate.d/apache2, etc." >> /etc/apache2/envvars
 sudo echo "export APACHE_RUN_USER=vagrant" >> /etc/apache2/envvars
 sudo echo "export APACHE_RUN_GROUP=vagrant" >> /etc/apache2/envvars
-sudo echo "export APACHE_PID_FILE=/var/run/apache2$SUFFIX.pid" >> /etc/apache2/envvars
-sudo echo "export APACHE_RUN_DIR=/var/run/apache2$SUFFIX" >> /etc/apache2/envvars
-sudo echo "export APACHE_LOCK_DIR=/var/lock/apache2$SUFFIX" >> /etc/apache2/envvars
+sudo echo "export APACHE_PID_FILE=/var/run/apache2\$SUFFIX.pid" >> /etc/apache2/envvars
+sudo echo "export APACHE_RUN_DIR=/var/run/apache2\$SUFFIX" >> /etc/apache2/envvars
+sudo echo "export APACHE_LOCK_DIR=/var/lock/apache2\$SUFFIX" >> /etc/apache2/envvars
 sudo echo "# Only /var/log/apache2 is handled by /etc/logrotate.d/apache2." >> /etc/apache2/envvars
-sudo echo "export APACHE_LOG_DIR=/var/log/apache2$SUFFIX" >> /etc/apache2/envvars
+sudo echo "export APACHE_LOG_DIR=/var/log/apache2\$SUFFIX" >> /etc/apache2/envvars
 sudo echo "" >> /etc/apache2/envvars
 sudo echo "## The locale used by some modules like mod_dav" >> /etc/apache2/envvars
 sudo echo "export LANG=C" >> /etc/apache2/envvars
