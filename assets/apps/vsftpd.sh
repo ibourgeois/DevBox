@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 clear
+echo "================================================================================"
 echo "Installing VSFTPD"
+echo "================================================================================"
 
 #Install VSFTPD
 sudo apt-get install -y vsftpd
