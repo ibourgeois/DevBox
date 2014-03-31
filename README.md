@@ -26,7 +26,12 @@ Automated Ubuntu Server VM provisions using Vagrant
 <ol>
     <li>Install VirtualBox - https://www.virtualbox.org/wiki/Downloads</li>
     <li>Install Vagrant - http://www.vagrantup.com/downloads.html</li>
-    <li>Run the setup.sh file in your terminal.</li>
+    <li>Run Setup:
+        <ul>
+            <li>Linux/Mac: Run the setup.sh file in your terminal.</li>
+            <li>Windows  : Run the setup.bat file.</li>
+        </ul>
+    </li>
     <li>Enter the number corresponding to the server you wish to provision.</li>
     <li>Enjoy!</li>
 </ol>
