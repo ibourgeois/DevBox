@@ -9,12 +9,18 @@ Automated Ubuntu Server VM provisions using Vagrant
 <li>CodeIgniter</li>
 <li>Concrete5</li>
 <li>Drupal</li>
+<li>Joomla</li>
 <li>Laravel</li>
+<li>phpBB</li>
+<li>Ruby on Rails</li>
+<li>SilverStripe</li>
+<li>Symfony</li>
 <li>WordPress</li>
 <li>Yii</li>
-<li>... More Coming Soon!</li>
+<li>Zend</li>
 </ul>
 
+<p>More available upon request...</p>
 
 <h1>Installation</h1>
 <ol>
