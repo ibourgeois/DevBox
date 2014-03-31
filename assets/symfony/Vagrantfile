@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "symfony"
+  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.network "forwarded_port", guest: 80, host: 9876
+  config.vm.network "public_network"
+  config.vm.provision :shell, :path => "../apps/update.sh"
+  config.vm.provision :shell, :path => "../apps/vim.sh"
+  config.vm.provision :shell, :path => "../apps/g++.sh"
+  config.vm.provision :shell, :path => "../apps/vsftpd.sh"
+  config.vm.provision :shell, :path => "../apps/unzip.sh"
+  config.vm.provision :shell, :path => "../apps/apache.sh"
+  config.vm.provision :shell, :path => "../apps/libssl-dev.sh"
+  config.vm.provision :shell, :path => "../apps/php.sh"
+  config.vm.provision :shell, :path => "../apps/curl.sh"
+  config.vm.provision :shell, :path => "../apps/git.sh"
+  config.vm.provision :shell, :path => "../apps/mysql.sh"
+  config.vm.provision :shell, :path => "../apps/nodejs.sh"
+# config.vm.provision :shell, :path => "../apps/hhvm.sh"
+  config.vm.provision :shell, :path => "../apps/composer.sh"
+  config.vm.provision :shell, :path => "symfony.sh"
+end
