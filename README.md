@@ -4,21 +4,65 @@ iBourgeois - Vagrant
 Automated Ubuntu Server VM provisions using Vagrant
 
 <h1>Available VM's</h1>
-<ul>
-<li>CakePHP</li>
-<li>CodeIgniter</li>
-<li>Concrete5</li>
-<li>Drupal</li>
-<li>Joomla</li>
-<li>Laravel</li>
-<li>phpBB</li>
-<li>Ruby on Rails</li>
-<li>SilverStripe</li>
-<li>Symfony</li>
-<li>WordPress</li>
-<li>Yii</li>
-<li>Zend</li>
-</ul>
+
+<table>
+    <thead>
+        <td><b>Environment</b></td>
+        <td><b>Status</b></td>
+    </thead>
+    <tr>
+        <td>CakePHP</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>CodeIgniter</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Concrete5</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Drupal</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Joomla</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Laravel</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>phpBB</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Ruby On Rails</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>SilverStripe</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Symfony</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>WordPress</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Yii</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>Zend</td>
+        <td>100%</td>
+    </tr>
+</table>
 
 <p>More available upon request...</p>
 
