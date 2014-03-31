@@ -8,6 +8,7 @@ Automated Ubuntu Server VM provisions using Vagrant
 <li>CakePHP</li>
 <li>CodeIgniter</li>
 <li>Concrete5</li>
+<li>Drupal</li>
 <li>Laravel</li>
 <li>WordPress</li>
 <li>Yii</li>
