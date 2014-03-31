@@ -10,6 +10,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td><b>Environment</b></td>
         <td><b>Status</b></td>
         <td><b>MySQL Info</b></td>
+        <td><b>SSH Info</b></td>
+        <td><b>FTP Info</b></td>
     </thead>
     <tr>
         <td>CakePHP</td>
@@ -19,6 +21,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: cakephp <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -30,6 +42,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Concrete5</td>
@@ -39,6 +61,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: concrete5 <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -50,6 +82,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Joomla</td>
@@ -59,6 +101,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: joomla <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -70,6 +122,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>phpBB</td>
@@ -79,6 +141,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: phpbb <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -90,6 +162,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>SilverStripe</td>
@@ -99,6 +181,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: silverstripe <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -110,6 +202,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>WordPress</td>
@@ -119,6 +221,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: wordpress <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
     <tr>
@@ -130,6 +242,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database User: vagrant <br />
             Database Pass: vagrant
         </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Zend</td>
@@ -139,6 +261,16 @@ Automated Ubuntu Server VM provisions using Vagrant
             Database Name: zend <br />
             Database User: vagrant <br />
             Database Pass: vagrant
+        </td>
+        <td>
+            SSH Host: IPADDRESS:2222 <br />
+            SSH User: vagrant <br />
+            SSH Pass: vagrant
+        </td>
+        <td>
+            FTP Host: IPADDRESS:21 <br />
+            FTP User: vagrant <br />
+            FTP Pass: vagrant
         </td>
     </tr>
 </table>
