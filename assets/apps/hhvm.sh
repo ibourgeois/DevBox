@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 clear
+echo "================================================================================"
 echo "Installing HHVM"
+echo "================================================================================"
 
 # Install HHVM
 sudo add-apt-repository ppa:mapnik/boost
