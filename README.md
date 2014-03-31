@@ -9,58 +9,137 @@ Automated Ubuntu Server VM provisions using Vagrant
     <thead>
         <td><b>Environment</b></td>
         <td><b>Status</b></td>
+        <td><b>MySQL Info</b></td>
     </thead>
     <tr>
         <td>CakePHP</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: cakephp <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>CodeIgniter</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: codeigniter <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Concrete5</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: concrete5 <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Drupal</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: drupal <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Joomla</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: joomla <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Laravel</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: laravel <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>phpBB</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: phpbb <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Ruby On Rails</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: rubyonrails <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>SilverStripe</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: silverstripe <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Symfony</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: symfony <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>WordPress</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: wordpress <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Yii</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: yii <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
     <tr>
         <td>Zend</td>
         <td>100%</td>
+        <td>
+            Database Host: localhost <br />
+            Database Name: zend <br />
+            Database User: vagrant <br />
+            Database Pass: vagrant
+        </td>
     </tr>
 </table>
 
