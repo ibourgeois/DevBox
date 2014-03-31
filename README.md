@@ -1,4 +1,4 @@
-iBourgeois - Vagrant
+Vagrant Auto DevBoxes
 ===============
 
 Automated Ubuntu Server VM provisions using Vagrant
