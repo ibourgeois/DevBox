@@ -24,4 +24,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 # config.vm.provision :shell, :path => "../apps/hhvm.sh"
   config.vm.provision :shell, :path => "../apps/composer.sh"
   config.vm.provision :shell, :path => "phpbb.sh"
+  config.vm.provision :shell, :path => "../apps/completed.sh"
 end
