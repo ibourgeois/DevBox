@@ -104,4 +104,18 @@ echo "CREATE DATABASE IF NOT EXISTS laravel" | mysql
 echo "CREATE USER 'vagrant'@'localhost' IDENTIFIED BY 'vagrant'" | mysql
 echo "GRANT ALL PRIVILEGES ON laravel.* TO 'vagrant'@'localhost' IDENTIFIED BY 'vagrant'" | mysql
 
+# Configure the Database Settings for Laravel
+# 'mysql' => array(
+# 			'driver'    => 'mysql',
+# 			'host'      => 'localhost',
+# 			'database'  => 'laravel',
+# 			'username'  => 'vagrant',
+#	  		'password'  => 'vagrant',
+# 			'charset'   => 'utf8',
+# 			'collation' => 'utf8_unicode_ci',
+# )			
+
+# Install the Migration table in the database
+# php artisan migrate:install
+
 ifconfig
