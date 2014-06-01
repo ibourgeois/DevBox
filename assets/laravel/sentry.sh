@@ -14,4 +14,15 @@ cd /var/www/laravel
 # Run Composer Update to install Sentry
 # php composer update
 
+# Register the Sentry Service Provider
+#'Cartalyst\Sentry\SentryServiceProvider',
+
+# Register the Sentry Alias
+# 'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
+
+# Run Migrations
+# php artisan migrate --package=cartalyst/sentry
+
+# Publish the Sentry Package
+# php artisan config:publish cartalyst/sentry
 
