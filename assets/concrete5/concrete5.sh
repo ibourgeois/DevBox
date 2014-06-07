@@ -6,9 +6,9 @@ echo "==========================================================================
 
 # Install Concrete5
 cd /var/www
-wget --trust-server-names http://www.concrete5.org/download_file/-/view/58379/8497/ -O concrete5.zip
+wget --trust-server-names http://www.concrete5.org/download_file/-/view/66159/8497/ -O concrete5.zip
 sudo unzip concrete5.zip
-sudo mv concrete5.6.2.1 concrete5
+sudo mv concrete5.6.3.1 concrete5
 
 # Set Web Root to /var/www/concrete5
 sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/concrete5|' /etc/apache2/sites-enabled/000-default.conf
