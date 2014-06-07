@@ -6,7 +6,7 @@ echo "==========================================================================
 
 # Install CodeIgniter
 cd /var/www
-wget http://ellislab.com/asset/ci_download_files/reactor/CodeIgniter_2.2.0.zip
+wget http://c303150.r50.cf1.rackcdn.com/CodeIgniter_2.2.0.zip
 unzip CodeIgniter_2.2.0.zip
 sudo mv /var/www/CodeIgniter_2.2.0 /var/www/codeigniter
 
