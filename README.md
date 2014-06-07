@@ -271,7 +271,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Zend</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: zend <br />
