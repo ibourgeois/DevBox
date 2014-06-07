@@ -19,3 +19,6 @@ sudo apt-get install -y php5-gd
 # Install Imagemagick
 sudo apt-get install -y imagemagick
 
+# PHP.ini Date.Time
+sudo sed -i 's|;date.timezone =|date.timezone = "America/New_York"|' /etc/php5/apache2/php.ini
+sudo sed -i 's|;date.timezone =|date.timezone = "America/New_York"|' /etc/php5/cli/php.ini
