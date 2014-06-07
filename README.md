@@ -32,82 +32,30 @@ Automated Ubuntu Server VM provisions using Vagrant
     <tr>
         <td>CakePHP 2.5.1</td>
         <td>100%</td>
-        <td>
-            Host: localhost <br />
-            Database: cakephp <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
-        <td>
-            Host: IPADDRESS:2222 <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
-        <td>
-            Host: IPADDRESS:21 <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>CodeIgniter 2.2.0</td>
         <td>100%</td>
-        <td>
-            Host: localhost <br />
-            Database: codeigniter <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
-        <td>
-            Host: IPADDRESS:2222 <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
-        <td>
-            Host: IPADDRESS:21 <br />
-            User: vagrant <br />
-            Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: codeigniter <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Concrete5 5.6.3.1</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: concrete5 <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: concrete5 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Drupal 7.28</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: drupal <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: drupal <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Joomla 3.3.0</td>
