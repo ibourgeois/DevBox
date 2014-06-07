@@ -6,9 +6,9 @@ echo "==========================================================================
 
 # Install CodeIgniter
 cd /var/www
-wget http://ellislab.com/asset/ci_download_files/reactor/CodeIgniter_2.1.2.zip
-unzip CodeIgniter_2.1.2.zip
-sudo mv /var/www/CodeIgniter_2.1.2 /var/www/codeigniter
+wget http://ellislab.com/asset/ci_download_files/reactor/CodeIgniter_2.2.0.zip
+unzip CodeIgniter_2.2.0.zip
+sudo mv /var/www/CodeIgniter_2.2.0 /var/www/codeigniter
 
 # Set Web Root to /var/www/codeigniter
 sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/codeigniter|' /etc/apache2/sites-enabled/000-default.conf
