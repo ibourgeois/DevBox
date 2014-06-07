@@ -8,9 +8,9 @@ echo "============================================================"
 
 # Install CakePHP
 cd /var/www
-wget https://github.com/cakephp/cakephp/zipball/2.3.9
-sudo unzip 2.3.9
-sudo mv cakephp-cakephp-4b9e390 cakephp
+wget https://github.com/cakephp/cakephp/zipball/2.5.1
+sudo unzip 2.5.1
+sudo mv cakephp-cakephp-07b32ef cakephp
 cd /var/www
 git init
 sudo git submodule add https://github.com/cakephp/debug_kit.git cakephp/app/Plugin/DebugKit
