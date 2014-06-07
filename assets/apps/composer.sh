@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 clear
-echo "================================================================================"
+echo "============================================================"
 echo "Installing Composer"
-echo "================================================================================"
+echo "============================================================"
 
 # Install Composer
-curl -sS https://getcomposer.org/installer | php
+cd /var/www
+sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
