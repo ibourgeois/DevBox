@@ -100,7 +100,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>WordPress</td>
+        <td>WordPress 3.9.1</td>
         <td>0%</td>
         <td>Host: localhost <br />Database: wordpress <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
