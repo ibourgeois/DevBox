@@ -10,9 +10,6 @@ cd /tmp && wget -O SilverStripe-cms-v3.1.5.tar.gz http://www.silverstripe.org/as
 sudo tar -xzvf SilverStripe-cms-v3.1.5.tar.gz -C /var/www/
 sudo mv /var/www/SilverStripe-cms-v3.1.5 /var/www/silverstripe
 
-# PHP.ini Date.Time
-sudo sed -i 's|;date.timezone =|date.timezone = "America/New_York"|' /etc/php5/apache2/php.ini
-
 # Set Web Root to /var/www/silverstripe
 sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/silverstripe|' /etc/apache2/sites-enabled/000-default.conf
 sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/silverstripe|' /etc/apache2/sites-available/000-default.conf
