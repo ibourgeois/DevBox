@@ -7,9 +7,9 @@ echo "==========================================================================
 
 # Install Drupal
 cd /var/www
-wget  http://ftp.drupal.org/files/projects/drupal-7.15.tar.gz
-sudo tar zxvf drupal-7.15.tar.gz 
-sudo mv drupal-7.15/ /var/www/drupal
+wget  http://ftp.drupal.org/files/projects/drupal-7.28.tar.gz
+sudo tar zxvf drupal-7.28.tar.gz 
+sudo mv drupal-7.28/ /var/www/drupal
 
 # Set Web Root to /var/www/drupal
 sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/drupal|' /etc/apache2/sites-enabled/000-default.conf
