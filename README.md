@@ -32,7 +32,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     <tr>
         <td>CakePHP 2.5.1</td>
         <td>100%</td>
-        <td>Host: localhost <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: ```localhost``` <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
