@@ -190,8 +190,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>SilverStripe</td>
-        <td>0%</td>
+        <td>SilverStripe 3.1.5</td>
+        <td>100%</td>
         <td>
             Database Host: localhost <br />
             Database Name: silverstripe <br />
