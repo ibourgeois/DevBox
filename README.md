@@ -70,8 +70,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>Concrete5</td>
-        <td>0%</td>
+        <td>Concrete5 5.6.3.1</td>
+        <td>100%</td>
         <td>
             Database Host: localhost <br />
             Database Name: concrete5 <br />
