@@ -110,8 +110,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>Joomla</td>
-        <td>0%</td>
+        <td>Joomla 3.3.0</td>
+        <td>100%</td>
         <td>
             Database Host: localhost <br />
             Database Name: joomla <br />
