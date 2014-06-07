@@ -90,7 +90,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>Drupal</td>
+        <td>Drupal 7.28</td>
         <td>100%</td>
         <td>
             Database Host: localhost <br />
