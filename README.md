@@ -150,7 +150,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>phpBB</td>
+        <td>phpBB 3.0.12</td>
         <td>0%</td>
         <td>
             Database Host: localhost <br />
