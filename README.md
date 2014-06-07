@@ -32,7 +32,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     <tr>
         <td>CakePHP 2.5.1</td>
         <td>100%</td>
-        <td>Host: <pre>localhost</pre> <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: localhost <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
@@ -95,82 +95,30 @@ Automated Ubuntu Server VM provisions using Vagrant
     <tr>
         <td>Symfony</td>
         <td>0%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: symfony <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: symfony <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>WordPress</td>
         <td>0%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: wordpress <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: wordpress <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Yii</td>
         <td>0%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: yii <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: yii <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Zend</td>
         <td>0%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: zend <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: zend <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
 </table>
 
