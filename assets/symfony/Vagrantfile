@@ -22,5 +22,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.provision :shell, :path => "../apps/nodejs.sh"
     config.vm.provision :shell, :path => "../apps/composer.sh"
     config.vm.provision :shell, :path => "symfony.sh"
-    config.vm.provision :shell, :path => "../apps/completed.sh"
+#   config.vm.provision :shell, :path => "../apps/completed.sh"
 end
