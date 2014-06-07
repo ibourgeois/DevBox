@@ -20,10 +20,10 @@ mysql -u root -e "GRANT ALL PRIVILEGES ON laravel.* TO 'vagrant'@'localhost' IDE
 sudo service apache2 restart
 
 # Configure the Database Settings for Laravel
-sudo sed -i "s|'database'  => 'database', |'database'  => 'laravel',|g" /vagrant/laravel/app/config/database.php
-sudo sed -i "s|'username'  => 'root', |'username'  => 'vagrant',|g" /vagrant/laravel/app/config/database.php
-sudo sed -i "s|'password'  => '', |'password'  => 'vagrant',|g" /vagrant/laravel/app/config/database.php
+sudo sed -i "s|'database'  => 'forge',|'database'  => 'laravel',|g" /vagrant/laravel/app/config/database.php
+sudo sed -i "s|'username'  => 'forge',|'username'  => 'vagrant',|g" /vagrant/laravel/app/config/database.php
+sudo sed -i "s|'password'  => '',|'password'  => 'vagrant',|g" /vagrant/laravel/app/config/database.php
 
 # Install the Migration table in the database
-cd /vagrant/laravel
+cd /var/www/laravel
 php artisan migrate:install
