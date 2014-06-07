@@ -170,8 +170,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>Ruby On Rails</td>
-        <td>0%</td>
+        <td>Ruby On Rails 4.1.0</td>
+        <td>100%</td>
         <td>
             Database Host: localhost <br />
             Database Name: rubyonrails <br />
