@@ -30,7 +30,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td><b>FTP Info</b></td>
     </thead>
     <tr>
-        <td>CakePHP</td>
+        <td>CakePHP 2.5.1</td>
         <td>100%</td>
         <td>
             Database Host: localhost <br />
@@ -50,7 +50,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>CodeIgniter</td>
+        <td>CodeIgniter 2.2.0</td>
         <td>100%</td>
         <td>
             Database Host: localhost <br />
@@ -71,7 +71,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Concrete5</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: concrete5 <br />
@@ -91,7 +91,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Drupal</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: drupal <br />
@@ -111,7 +111,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Joomla</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: joomla <br />
@@ -130,7 +130,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         </td>
     </tr>
     <tr>
-        <td>Laravel</td>
+        <td>Laravel 4.2</td>
         <td>100%</td>
         <td>
             Database Host: localhost <br />
@@ -151,7 +151,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>phpBB</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: phpbb <br />
@@ -171,7 +171,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Ruby On Rails</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: rubyonrails <br />
@@ -191,7 +191,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>SilverStripe</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: silverstripe <br />
@@ -211,7 +211,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Symfony</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: symfony <br />
@@ -231,7 +231,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>WordPress</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: wordpress <br />
@@ -251,7 +251,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Yii</td>
-        <td>100%</td>
+        <td>0%</td>
         <td>
             Database Host: localhost <br />
             Database Name: yii <br />
