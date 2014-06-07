@@ -10,9 +10,12 @@ sudo apt-get install -y php5
 
 # Install MCrypt
 sudo apt-get install -y php5-mcrypt
+sudo php5enmod mcrypt
+
 
 # Install GD Library
 sudo apt-get install -y php5-gd
 
 # Install Imagemagick
 sudo apt-get install -y imagemagick
+
