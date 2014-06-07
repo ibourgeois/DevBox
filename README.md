@@ -94,7 +94,7 @@ Automated Ubuntu Server VM provisions using Vagrant
     </tr>
     <tr>
         <td>Symfony 2.5.0</td>
-        <td>0%</td>
+        <td>100%</td>
         <td>Host: localhost <br />Database: symfony <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
