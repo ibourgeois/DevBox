@@ -60,102 +60,37 @@ Automated Ubuntu Server VM provisions using Vagrant
     <tr>
         <td>Joomla 3.3.0</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: joomla <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: joomla <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Laravel 4.2</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: laravel <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: laravel <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>phpBB 3.0.12</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: phpbb <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: phpbb <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Ruby On Rails 4.1.0</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: rubyonrails <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: rubyonrails <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>SilverStripe 3.1.5</td>
         <td>100%</td>
-        <td>
-            Database Host: localhost <br />
-            Database Name: silverstripe <br />
-            Database User: vagrant <br />
-            Database Pass: vagrant
-        </td>
-        <td>
-            SSH Host: IPADDRESS:2222 <br />
-            SSH User: vagrant <br />
-            SSH Pass: vagrant
-        </td>
-        <td>
-            FTP Host: IPADDRESS:21 <br />
-            FTP User: vagrant <br />
-            FTP Pass: vagrant
-        </td>
+        <td>Host: localhost <br />Database: silverstripe <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
+        <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
         <td>Symfony</td>
