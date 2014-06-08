@@ -107,7 +107,7 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Yii</td>
+        <td>Yii 1.1.14</td>
         <td>0%</td>
         <td>Host: localhost <br />Database: yii <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
