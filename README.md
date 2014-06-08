@@ -30,84 +30,84 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td><b>FTP Info</b></td>
     </thead>
     <tr>
-        <td>CakePHP 2.5.1</td>
+        <td>CakePHP <br />(2.5.1)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: cakephp <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>CodeIgniter 2.2.0</td>
+        <td>CodeIgniter <br />(2.2.0)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: codeigniter <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Concrete5 5.6.3.1</td>
+        <td>Concrete5 <br />(5.6.3.1)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: concrete5 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Drupal 7.28</td>
+        <td>Drupal <br />(7.28)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: drupal <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Joomla 3.3.0</td>
+        <td>Joomla <br />(3.3.0)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: joomla <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Laravel 4.2</td>
+        <td>Laravel <br />(4.2)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: laravel <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>phpBB 3.0.12</td>
+        <td>phpBB <br />(3.0.12)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: phpbb <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Ruby On Rails 4.1.0</td>
+        <td>Ruby On Rails <br />(4.1.0)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: rubyonrails <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>SilverStripe 3.1.5</td>
+        <td>SilverStripe <br />(3.1.5)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: silverstripe <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Symfony 2.5.0</td>
+        <td>Symfony <br />(2.5.0)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: symfony <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>WordPress 3.9.1</td>
+        <td>WordPress <br />(3.9.1)</td>
         <td>100%</td>
         <td>Host: localhost <br />Database: wordpress <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Yii 1.1.14</td>
+        <td>Yii <br />(1.1.14)</td>
         <td>0%</td>
         <td>Host: localhost <br />Database: yii <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
