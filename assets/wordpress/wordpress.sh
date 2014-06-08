@@ -9,100 +9,13 @@ cd /var/www
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 
-# MODIFY 000-default 
-sudo : > /etc/apache2/sites-enabled/000-default
-echo "<VirtualHost *:80>" > /etc/apache2/sites-enabled/000-default
-echo "	ServerAdmin webmaster@localhost" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "	DocumentRoot /var/www/wordpress" >> /etc/apache2/sites-enabled/000-default
-echo "	<Directory />" >> /etc/apache2/sites-enabled/000-default
-echo "		Options FollowSymLinks" >> /etc/apache2/sites-enabled/000-default
-echo "		AllowOverride All" >> /etc/apache2/sites-enabled/000-default
-echo "	</Directory>" >> /etc/apache2/sites-enabled/000-default
-echo "	<Directory /var/www/wordpress/>" >> /etc/apache2/sites-enabled/000-default
-echo "		Options Indexes FollowSymLinks MultiViews" >> /etc/apache2/sites-enabled/000-default
-echo "		AllowOverride None" >> /etc/apache2/sites-enabled/000-default
-echo "		Order allow,deny" >> /etc/apache2/sites-enabled/000-default
-echo "		allow from all" >> /etc/apache2/sites-enabled/000-default
-echo "	</Directory>" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "	ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/" >> /etc/apache2/sites-enabled/000-default
-echo "	<Directory \"/usr/lib/cgi-bin\">" >> /etc/apache2/sites-enabled/000-default
-echo "		AllowOverride None" >> /etc/apache2/sites-enabled/000-default
-echo "		Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch" >> /etc/apache2/sites-enabled/000-default
-echo "		Order allow,deny" >> /etc/apache2/sites-enabled/000-default
-echo "		Allow from all" >> /etc/apache2/sites-enabled/000-default
-echo "	</Directory>" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "	ErrorLog \${APACHE_LOG_DIR}/error.log" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "	# Possible values include: debug, info, notice, warn, error, crit," >> /etc/apache2/sites-enabled/000-default
-echo "	# alert, emerg." >> /etc/apache2/sites-enabled/000-default
-echo "	LogLevel warn" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "	CustomLog \${APACHE_LOG_DIR}/access.log combined" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "    Alias /doc/ \"/usr/share/doc/\"" >> /etc/apache2/sites-enabled/000-default
-echo "    <Directory \"/usr/share/doc/\">" >> /etc/apache2/sites-enabled/000-default
-echo "        Options Indexes MultiViews FollowSymLinks" >> /etc/apache2/sites-enabled/000-default
-echo "        AllowOverride None" >> /etc/apache2/sites-enabled/000-default
-echo "        Order deny,allow" >> /etc/apache2/sites-enabled/000-default
-echo "        Deny from all" >> /etc/apache2/sites-enabled/000-default
-echo "        Allow from 127.0.0.0/255.0.0.0 ::1/128" >> /etc/apache2/sites-enabled/000-default
-echo "    </Directory>" >> /etc/apache2/sites-enabled/000-default
-echo "" >> /etc/apache2/sites-enabled/000-default
-echo "</VirtualHost>" >> /etc/apache2/sites-enabled/000-default
+# Set Web Root to /var/www/wordpress
+sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/wordpress|' /etc/apache2/sites-enabled/000-default.conf
+sudo sed -i 's|DocumentRoot /var/www|DocumentRoot /var/www/wordpress|' /etc/apache2/sites-available/000-default.conf
 
-# Modify default
-sudo : > /etc/apache2/sites-available/default
-echo "<VirtualHost *:80>" > /etc/apache2/sites-available/default
-echo "        ServerAdmin webmaster@localhost" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "        DocumentRoot /var/www/wordpress" >> /etc/apache2/sites-available/default
-echo "        <Directory />" >> /etc/apache2/sites-available/default
-echo "                Options FollowSymLinks" >> /etc/apache2/sites-available/default
-echo "                AllowOverride All" >> /etc/apache2/sites-available/default
-echo "        </Directory>" >> /etc/apache2/sites-available/default
-echo "        <Directory /var/www/wordpress/>" >> /etc/apache2/sites-available/default
-echo "                Options Indexes FollowSymLinks MultiViews" >> /etc/apache2/sites-available/default
-echo "                AllowOverride All" >> /etc/apache2/sites-available/default
-echo "                Order allow,deny" >> /etc/apache2/sites-available/default
-echo "                allow from all" >> /etc/apache2/sites-available/default
-echo "        </Directory>" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "        ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/" >> /etc/apache2/sites-available/default
-echo "        <Directory \"/usr/lib/cgi-bin\">" >> /etc/apache2/sites-available/default
-echo "                AllowOverride All" >> /etc/apache2/sites-available/default
-echo "                Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch" >> /etc/apache2/sites-available/default
-echo "                Order allow,deny" >> /etc/apache2/sites-available/default
-echo "                Allow from all" >> /etc/apache2/sites-available/default
-echo "        </Directory>" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "        ErrorLog /error.log" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "        # Possible values include: debug, info, notice, warn, error, crit," >> /etc/apache2/sites-available/default
-echo "        # alert, emerg." >> /etc/apache2/sites-available/default
-echo "        LogLevel warn" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "        CustomLog /access.log combined" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "    Alias /doc/ \"/usr/share/doc/\"" >> /etc/apache2/sites-available/default
-echo "    <Directory \"/usr/share/doc/\">" >> /etc/apache2/sites-available/default
-echo "        Options Indexes MultiViews FollowSymLinks" >> /etc/apache2/sites-available/default
-echo "        AllowOverride All" >> /etc/apache2/sites-available/default
-echo "        Order deny,allow" >> /etc/apache2/sites-available/default
-echo "        Deny from all" >> /etc/apache2/sites-available/default
-echo "        Allow from 127.0.0.0/255.0.0.0 ::1/128" >> /etc/apache2/sites-available/default
-echo "    </Directory>" >> /etc/apache2/sites-available/default
-echo "" >> /etc/apache2/sites-available/default
-echo "</VirtualHost>" >> /etc/apache2/sites-available/default
+# Set up the database
+mysql -u root -e "CREATE DATABASE IF NOT EXISTS wordpress"
+mysql -u root -e "GRANT ALL PRIVILEGES ON wordpress.* TO 'vagrant'@'localhost' IDENTIFIED BY 'vagrant'"
 
 # Restart Apache
 sudo service apache2 restart
-
-# Set up the database
-echo "CREATE DATABASE IF NOT EXISTS wordpress" | mysql
-echo "CREATE USER 'vagrant'@'localhost' IDENTIFIED BY 'vagrant'" | mysql
-echo "GRANT ALL PRIVILEGES ON wordpress.* TO 'vagrant'@'localhost' IDENTIFIED BY 'vagrant'" | mysql
-
-ifconfig
