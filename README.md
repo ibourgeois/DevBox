@@ -114,8 +114,8 @@ Automated Ubuntu Server VM provisions using Vagrant
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
     </tr>
     <tr>
-        <td>Zend</td>
-        <td>0%</td>
+        <td>Zend<br />(1.11.11)</td>
+        <td>100%</td>
         <td>Host: localhost <br />Database: zend <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:2222 <br />User: vagrant <br />Pass: vagrant</td>
         <td>Host: IPADDRESS:21 <br />User: vagrant <br />Pass: vagrant</td>
